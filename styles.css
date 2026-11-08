@@ -1,0 +1,94 @@
+#level-7{
+    background-color: darkblue;
+    grid-area: 1 / 1 / 2 / 2;
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#level-6{
+    background-color: blue;
+    grid-area: 2 / 1 / 3 / 2;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#level-5{
+    background-color: dodgerblue;
+    grid-area: 3 / 1 / 4 / 2;
+    color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#level-4{
+    background-color: skyblue;
+    grid-area: 4 / 1 / 5 / 2;
+    color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#level-3{
+    background-color: lightblue;
+    grid-area: 5 / 1 / 6 / 2;
+    color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#level-2{
+    background-color: lightcyan;
+    grid-area: 6 / 1 / 7 / 2;
+    color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#level-1{
+    background-color: white;
+    grid-area: 7 / 1 / 8 / 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.levels{
+    height: 14.2vh;
+}
+img{
+    height: 100px;
+}
+h1 , h2{
+    display: none;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+.burst{
+    width: 60%;
+    height: auto;
+}
